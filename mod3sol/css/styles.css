@@ -1,0 +1,80 @@
+body {
+    font-family: 'Sriracha', cursive;
+    font-size: 16px;
+}
+
+.navbar {
+    background-color: #999999;
+    border-radius: 0;
+    border-bottom: 2px solid black;
+}
+
+icon-bar {
+    background-color: black;
+}
+
+.navbar-toggle {
+    background-color: gray;
+    border: black solid 1px;
+}
+
+.navbar-toggle:hover {
+    border: white solid 1px;
+}
+
+@media (max-width: 767px) {
+    #collapsable-nav {
+        background-color: white;
+        border-top: black solid 2px;
+    }
+}
+
+ul#nav-list li {
+    background-color: white;
+}
+
+ul#nav-list li a {
+    color: black;
+}
+
+.company-name {
+    font-size: 28px;
+    color: black;
+    font-weight: bold;
+}
+
+.main-content .title {
+    color: black;
+}
+
+.main-content .menu-tiles .tile {
+    margin: 10px 0 10px;
+    background-color: #999999;
+    color: black;
+}
+
+.menu-tiles > div {
+    margin: 5px 0 5px;
+}
+
+div.main-content > h2 {
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.menu-tiles .tile > h3 {
+    padding-top: 5px;
+    font-weight: bold;
+}
+
+.menu-tiles .tile a {
+    color: black;
+}
+
+.menu-tiles .tile a:hover {
+    text-decoration: none;
+}
+
+.menu-tiles .tile > p {
+    padding: 0 10px 10px;
+}
